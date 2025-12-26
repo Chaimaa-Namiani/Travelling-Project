@@ -9,7 +9,7 @@
 body {
     margin: 2%;
    text-align: center;
-    background-image:url(bilder/ist5.png);
+    background-image:url(images/index.png);
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -86,5 +86,6 @@ li a:focus {
 li:last-child a {
      border-radius:0 0 2rem 2rem ;
 }
+
 
 
