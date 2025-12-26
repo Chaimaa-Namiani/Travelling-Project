@@ -25,6 +25,10 @@ header {
      /* overflow: auto;  */
      
 }
+div {
+    float: left;
+} 
+
 header img {
     width: 105px;
     height: 98px;
@@ -52,6 +56,9 @@ section {
     line-height: 3rem
     
 }
+ ul {
+    list-style-type: none; 
+} 
 h2 {
     padding: 1rem;
     background-color: rgb(148, 86, 108);
@@ -59,16 +66,11 @@ h2 {
     font-size: XX-large;
     border-radius: 2rem 2rem 0 0; /* 0 for oben and unten don't use rem*/
 }
- ul {
-    list-style-type: none; 
-} 
+
  li {
     border: 1px solid rgb(26, 16, 16);
    
 } 
-li:last-child {
-    border-radius: 0 0 2rem 2rem;
-}
 li a {
     display: block;
      text-decoration: none;
@@ -85,14 +87,4 @@ li:last-child a {
      border-radius:0 0 2rem 2rem ;
 }
 
-
-
-p {
-    text-align: left ;
-   
-}
-
-div {
-    float: left;
-} 
 
