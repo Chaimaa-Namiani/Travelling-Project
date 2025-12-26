@@ -1,0 +1,25 @@
+body{
+    background-image: url(bilder/kk.png);
+      background-size: cover;
+  
+  background-repeat: no-repeat;
+}
+.back {
+    padding-right: 22px;
+    padding-bottom: 30px;
+} 
+.back a {
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+     
+} 
+.back a:hover{
+    cursor: pointer;
+    color: #ccc;
+}  
+.back a:active{
+  
+color: #aba4a4;
+   
+} 

@@ -1,0 +1,25 @@
+body{
+    background-image: url(bilder/fatih.png) ;
+      background-size: cover;
+
+  background-repeat: no-repeat;
+}
+.back {
+    padding-right: 22px;
+    padding-bottom: 30px;
+} 
+.back a {
+    color:black;
+    font-size: large;
+    font-weight: bold;
+     
+} 
+.back a:hover{
+    cursor: pointer;
+    color: #696464;
+}  
+.back a:active{
+  
+color: #aba4a4;
+   
+} 
