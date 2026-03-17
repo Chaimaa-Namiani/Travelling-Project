@@ -9,7 +9,7 @@
 body {
     margin: 2%;
    text-align: center;
-    background-image:url(bilder/ist.png);
+    background-image:url(ist.png);
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ header {
     border: 1px solid black;
     padding: 11px;
     margin: 40px;
-     /* overflow: auto;  */
+   
      
 }
 header img {
@@ -31,11 +31,9 @@ header img {
     flex: left;  
 }
 header .block {
-  
     align-content: center;
     text-align: left;
-    
-   color:rgb(120, 90, 102);
+    color:rgb(120, 90, 102);
 }
 
 main{
@@ -44,8 +42,7 @@ main{
 section {
     border: 3px solid black;
     border-radius: 2rem;
-    margin: 0 auto 1rem  ; /*auto is for keeping us 
-    in the center*/
+    margin: 0 auto 1rem  ; 
     max-width: 500px;
     font-size: 1.5rem;
     line-height: 3rem
@@ -54,9 +51,9 @@ section {
 h2 {
     padding: 1rem;
     background-color: rgb(148, 86, 108);
-     opacity: 0.6;
+    opacity: 0.6;
     font-size: XX-large;
-    border-radius: 2rem 2rem 0 0; /* 0 for oben and unten don't use rem*/
+    border-radius: 2rem 2rem 0 0; 
 }
  ul {
     list-style-type: none; 
